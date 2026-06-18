@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEIS - Pancarkan Pesonamu</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+        .fade-in { animation: fadeIn 1.2s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .hover-lift:hover { transform: translateY(-5px); transition: transform 0.3s ease; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Go To Contact -->
+    <a 
+        href="kontak/"
+        class="fixed top-6 right-6 z-50 bg-white/90 backdrop-blur-sm px-5 py-3 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition duration-300 text-gray-700 font-medium"
+    >
+        📞 Contact Us
+    </a>
+
+    <!-- Hero Section -->
+    <header class="min-h-screen flex flex-col items-center justify-center text-center px-4 fade-in">
+        <img 
+            src="assets/logo-geis.png" 
+            alt="Logo GEIS"
+            class="w-48 md:w-64 mb-8"
+        >
+        <h1 class="text-5xl md:text-6xl font-bold mb-4">Bangun Bisnis Impian<br>Bersama GEIS</h1>
+        <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl">Saatnya bertumbuh, berkembang, dan meraih peluang tanpa batas bersama GEIS. GEIS — Pancarkan Pesonamu</p>
+        <a href="about/" class="bg-[#f08d9e] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#d87a89] transition duration-300 shadow-lg hover-lift">
+            ✅ Yuk Pelajari Selengkapnya!
+        </a>
+    </header>
+
+    <!-- 3 Keunggulan -->
+    <section class="py-20 px-6 bg-[#bae3fb] bg-opacity-30">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-3xl shadow-sm hover-lift text-center">
+                <div class="text-4xl mb-4">✨</div>
+                <h3 class="text-xl font-semibold mb-2">Produk Berkualitas</h3>
+                <p class="text-gray-600">Produk inovatif yang dikembangkan untuk mendukung kesehatan dan gaya hidup modern.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-sm hover-lift text-center">
+                <div class="text-4xl mb-4">🚀</div>
+                <h3 class="text-xl font-semibold mb-2">Peluang Kemitraan</h3>
+                <p class="text-gray-600">Sistem bisnis yang dapat dijalankan oleh siapa saja, baik pemula maupun yang sudah berpengalaman.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-sm hover-lift text-center">
+                <div class="text-4xl mb-4">🤝</div>
+                <h3 class="text-xl font-semibold mb-2">Komunitas Bertumbuh</h3>
+                <p class="text-gray-600">Didukung oleh jaringan leader dan mitra yang aktif berkembang bersama.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preview Produk -->
+    <section class="py- px-6 bg-[#f08d9e] mx-auto text-center">
+        <div class="py-20 px-6 max-w-5xl bg-[#f08d9e] mx-auto text-center">
+            <h2 class="text-3xl text-white font-bold mb-12">Produk Unggulan Kami</h2>
+            <div class="grid md:grid-cols-2 gap-12 mb-10">
+                <div class="p-6">
+                    <div class="aspect-square rounded-[32px] bg-[#edeef0] p-8 mb-4
+                                shadow-[inset_8px_8px_16px_rgba(0,0,0,0.06),inset_-8px_-8px_16px_rgba(255,255,255,0.9)]">
+
+                        <img 
+                            src="assets/product/healthy-spray_preview_v4.png"
+                            alt="GEIS Healthy Spray"
+                            class="w-full h-full object-contain transition-transform duration-300 hover:scale-110"
+                        >
+
+                    </div>
+                    <h3 class="text-xl text-white font-bold">GEIS Healthy Spray</h3>
+                    <p class="text-white">Solusi kesehatan & kecantikan praktis yang telah dipercaya banyak pengguna.</p>
+                </div>
+                <div class="p-6">
+                    <div class="aspect-square rounded-[32px] bg-[#edeef0] p-8 mb-4
+                                shadow-[inset_8px_8px_16px_rgba(0,0,0,0.06),inset_-8px_-8px_16px_rgba(255,255,255,0.9)]">
+
+                        <img 
+                            src="assets/product/healthy-milk_preview_v4.png"
+                            alt="GEIS Healthy Milk"
+                            class="w-full h-full object-contain transition-transform duration-300 hover:scale-110"
+                        >
+
+                    </div>
+                    <h3 class="text-xl text-white font-bold">GEIS Healthy Milk</h3>
+                    <p class="text-white">Susu kesehatan terbaru untuk mendukung kesehatan & kebutuhan harian.</p>
+                </div>
+            </div>
+            <a href="produk/" class="bg-white text-[#f08d9e] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition shadow-lg">Lihat Detail Produk →</a>
+        </div>    
+    </section>
+
+    <!-- Disclaimer -->
+    <footer class="py-10 text-center px-6 text-sm text-gray-400 bg-gray-50">
+        <p class="max-w-3xl mx-auto">
+            <strong>Catatan:</strong> Website ini merupakan media informasi yang dikelola secara mandiri oleh <strong>Mitra GEIS</strong> dan bukan merupakan website resmi perusahaan. 
+            Seluruh informasi mengenai produk dan program kemitraan disusun untuk tujuan <strong>edukasi dan presentasi kepada calon mitra.</strong>
+        </p>
+    </footer>
+
+</body>
+</html>

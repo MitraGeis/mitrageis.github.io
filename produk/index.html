@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Knowledge - GEIS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+        .pill { @apply bg-[#bae3fb] text-[#1e3a8a] px-4 py-2 rounded-full text-sm font-medium; }
+        .card-feature { @apply bg-white border border-gray-100 p-6 rounded-2xl shadow-sm hover:shadow-md transition; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Back To Home -->
+    <a 
+        href="../index.html"
+        class="fixed top-6 left-6 z-50 bg-white/90 backdrop-blur-sm px-5 py-3 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition duration-300 text-gray-700 font-medium"
+    >
+        🏠 Home
+    </a>
+
+    <!-- Go To Contact -->
+    <a 
+        href="contact.html"
+        class="fixed top-6 right-6 z-50 bg-white/90 backdrop-blur-sm px-5 py-3 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition duration-300 text-gray-700 font-medium"
+    >
+        📞 Contact Us
+    </a>
+
+    <!-- 1. Hero Section -->
+        <header class="py-20 px-4 text-center fade-in">
+            <div class="mb-6 flex justify-center">
+                <img src="assets/logo-geis.png" alt="Logo Perusahaan" class="h-24">
+            </div>
+        <h1 class="text-4xl font-bold mb-4 text-[#f08d9e]">Product Knowledge</h1>
+        <p class="text-xl text-gray-600 mb-6">Kenali lebih dekat produk-produk GEIS yang dirancang untuk mendukung kesehatan dan kecantikan dalam aktivitas sehari-hari.</p>
+        <div class="flex justify-center gap-4 text-gray-400 font-semibold italic">
+            <span>Healthy Spray</span> • <span>Healthy Milk</span>
+        </div>
+    </header>
+
+    <!-- 2. Our Products Section -->
+    <section class="py-16 text-center">
+        <img
+            src="assets/product/all-product.png" 
+            alt="GEIS Healthy Spray"
+            class="h-[350px] mx-auto rounded-3xl mb-8 flex items-center justify-center"
+        >
+
+        <h2 class="text-2xl font-bold max-w-sm mx-auto">Produk-produk GEIS adalah Produk Kecantikan Dan Kesehatan yang dapat mendukung kebutuhan harian Anda.</h2>
+    </section>
+
+    <!-- 3. Healthy Spray GEIS -->
+    <section class="py-20 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h2 class="text-3xl font-bold mb-4">Healthy Spray GEIS</h2>
+            <p class="text-gray-600 mb-6">Spray multifungsi dengan ekstrak Acai Berry dan Delima yang memberikan berbagai manfaat untuk rambut, wajah, tubuh, dan area intim. Formulasi khusus yang aman dan efektif untuk perawatan sehari-hari.</p>
+            <div class="grid grid-cols-2 gap-4 mb-8">
+                <div class="card-feature">✨ Multifungsi</div>
+                <div class="card-feature">🌿 Alami & Aman</div>
+                <div class="card-feature">👨‍👩‍👧 Semua Kalangan</div>
+                <div class="card-feature">⚡ Praktis & Efektif</div>
+            </div>
+            <div class="flex flex-wrap gap-2">
+                <span class="pill">Acai Berry</span>
+                •
+                <span class="pill">Pomegranate</span>
+                •
+                <span class="pill">Buah Pala</span>
+                •
+                <span class="pill">Daun Mint</span>
+                •
+                <span class="pill">Daun Pegagan</span>
+                •
+                <span class="pill">Daun Sirih</span>
+                •
+                <span class="pill">Spirulina</span>
+            </div>
+        </div>
+        <img
+            src="assets/product/spray-knowledge.png" 
+            alt="GEIS Healthy Spray"
+            class="h-[500px] rounded-3xl flex items-center justify-center"
+        >
+
+    </section>
+
+    <!-- 4. Healthy Milk GEIS -->
+    <section class="py-20 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <img
+            src="assets/product/milk-knowledge.png" 
+            alt="GEIS Healthy Spray"
+            class="h-[500px] rounded-3xl flex items-center justify-center"
+        >
+        <div class="order-1 md:order-2">
+            <h2 class="text-3xl font-bold mb-4">Healthy Milk GEIS</h2>
+            <p class="text-gray-600 mb-6">Healthy Milk GEIS adalah susu bernutrisi dengan formulasi unggulan yang saling melengkapi untuk membantu menjaga stamina, mendukung kesehatan tubuh, meningkatkan daya tahan, serta merawat kesehatan kulit.</p>
+            <div class="grid grid-cols-2 gap-4 mb-8">
+                <div class="card-feature">💪 Menjaga Stamina</div>
+                <div class="card-feature">🛡️ Mendukung Kesehatan</div>
+                <div class="card-feature">✨ Merawat Kulit</div>
+                <div class="card-feature">🌿 Meningkatkan Imun</div>
+                <div class="card-feature">🥛 Formulasi Lengkap</div>
+                <div class="card-feature">⚡ Praktis</div>
+            </div>
+            <div class="flex flex-wrap gap-2">
+                <span class="pill">Susu Kuda Liar</span>
+                •
+                <span class="pill">Susu Kambing Etawa</span>
+                •
+                <span class="pill">Kolostrum Sapi</span>
+                <span class="pill">Kolagen Tripeptide</span>
+                •
+                <span class="pill">Glutathione</span>
+                •
+                <span class="pill">Kulit Manggis</span>
+                •
+                <span class="pill">Madu</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Testimoni -->
+    <section class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">Testimoni Healthy Spray</h2>
+        <div class="grid grid-cols-4 gap-4 mb-16">
+            <!-- Grid 4x2 Foto -->
+            <img
+                src="assets/testimoni/testimoni-spray_1.png" 
+                alt="GEIS Healthy Spray"
+                class="aspect-square rounded-2xl"
+            >
+            <img
+                src="assets/testimoni/testimoni-spray_2.png" 
+                alt="GEIS Healthy Spray"
+                class="aspect-square rounded-2xl"
+            >
+            <img
+                src="assets/testimoni/testimoni-spray_3.png" 
+                alt="GEIS Healthy Spray"
+                class="aspect-square rounded-2xl"
+            >
+            <img
+                src="assets/testimoni/testimoni-spray_4.png" 
+                alt="GEIS Healthy Spray"
+                class="aspect-square rounded-2xl"
+            >
+            <img
+                src="assets/testimoni/testimoni-spray_5.png" 
+                alt="GEIS Healthy Spray"
+                class="aspect-square rounded-2xl"
+            >
+            <img
+                src="assets/testimoni/testimoni-spray_6.png" 
+                alt="GEIS Healthy Spray"
+                class="aspect-square rounded-2xl"
+            >
+            <img
+                src="assets/testimoni/testimoni-spray_7.png" 
+                alt="GEIS Healthy Spray"
+                class="aspect-square rounded-2xl"
+            >
+            <img
+                src="assets/testimoni/testimoni-spray_8.png" 
+                alt="GEIS Healthy Spray"
+                class="aspect-square rounded-2xl"
+            >
+        </div>
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video 1 -->
+                    <div
+                        onclick="openVideo('assets/testimoni/video/testimoni-spray_1.mp4')"
+                        class="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-lg group cursor-pointer hover-lift"
+                    >
+
+                        <img
+                            src="assets/testimoni/video/thumb/testimoni-spray_1.png"
+                            alt="Video Testimoni Healthy Spray"
+                            class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+                        >
+
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition duration-300"></div>
+
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-xl backdrop-blur-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-7 h-7 ml-1 text-[#f08d9e]"
+                                    fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path d="M6 4l10 6-10 6V4z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Video 2 -->
+                    <div
+                        onclick="openVideo('assets/testimoni/video/testimoni-spray_2.mp4')"
+                        class="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-lg group cursor-pointer hover-lift"
+                    >
+
+                        <img
+                            src="assets/testimoni/video/thumb/testimoni-spray_2.png"
+                            alt="Video Testimoni Healthy Spray"
+                            class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+                        >
+
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition duration-300"></div>
+
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-xl backdrop-blur-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-7 h-7 ml-1 text-[#f08d9e]"
+                                    fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path d="M6 4l10 6-10 6V4z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Video 3 -->
+                    <div
+                        onclick="openVideo('assets/testimoni/video/testimoni-spray_3.mp4')"
+                        class="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-lg group cursor-pointer hover-lift"
+                    >
+
+                        <img
+                            src="assets/testimoni/video/thumb/testimoni-spray_3.png"
+                            alt="Video Testimoni Healthy Spray"
+                            class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+                        >
+
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition duration-300"></div>
+
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-xl backdrop-blur-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-7 h-7 ml-1 text-[#f08d9e]"
+                                    fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path d="M6 4l10 6-10 6V4z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </section>
+
+    <!-- 6. Healthy Milk Coming Soon -->
+    <section class="py-16 px-6 max-w-lg mx-auto text-center border-2 border-dashed border-[#bae3fb] rounded-3xl mb-20">
+        <div class="text-4xl mb-4">🥛</div>
+        <h3 class="text-xl font-bold mb-2">Healthy Milk Testimoni</h3>
+        <p class="text-gray-500 mb-4">Testimoni pengguna Healthy Milk akan segera hadir seiring bertambahnya pengguna dan pengalaman positif dari para konsumen.</p>
+        <span class="inline-block bg-[#f08d9e] text-white px-4 py-1 rounded-full text-sm font-bold">🚀 Coming Soon</span>
+    </section>
+
+    <!-- Video Modal -->
+    <div
+        id="videoModal"
+        onclick="closeVideo()"
+        class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center z-50 p-4"
+    >
+
+        <div
+            onclick="event.stopPropagation()"
+            class="relative w-full max-w-md"
+        >
+
+            <button
+                onclick="closeVideo()"
+                class="absolute -top-12 right-0 text-white text-4xl hover:text-gray-300"
+            >
+                &times;
+            </button>
+
+            <video
+                id="modalVideo"
+                controls
+                class="w-full rounded-3xl shadow-2xl"
+            >
+                <source src="" type="video/mp4">
+            </video>
+
+        </div>
+
+    </div>
+
+    <!-- 7. CTA Penutup -->
+    <section class="py-20 px-6 bg-[#f08d9e] text-white text-center">
+        <h2 class="text-3xl font-bold mb-4">Siap Mengenal Peluang Bisnis GEIS?</h2>
+        <p class="mb-8 max-w-xl mx-auto opacity-90">Pelajari bagaimana produk-produk GEIS dikembangkan bersama sistem kemitraan yang terstruktur.</p>
+        <a href="marketing-plan.html" class="bg-white text-[#f08d9e] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition shadow-lg">Pelajari Marketing Plan</a>
+    </section>
+
+    <!-- Disclaimer -->
+    <footer class="py-10 text-center px-6 text-sm text-gray-400 bg-gray-50">
+        <p class="max-w-3xl mx-auto">
+            <strong>Catatan:</strong> Website ini merupakan media informasi yang dikelola secara mandiri oleh <strong>Mitra GEIS</strong> dan bukan merupakan website resmi perusahaan. 
+            Seluruh informasi mengenai produk dan program kemitraan disusun untuk tujuan <strong>edukasi dan presentasi kepada calon mitra.</strong>
+        </p>
+    </footer>
+
+
+    <script>
+    function openVideo(videoSrc) {
+
+        const modal = document.getElementById('videoModal');
+        const video = document.getElementById('modalVideo');
+
+        video.src = videoSrc;
+
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+
+        video.play();
+    }
+
+    function closeVideo() {
+
+        const modal = document.getElementById('videoModal');
+        const video = document.getElementById('modalVideo');
+
+        video.pause();
+        video.currentTime = 0;
+
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+    }
+    </script>
+</body>
+</html>
